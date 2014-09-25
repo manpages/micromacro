@@ -1,4 +1,4 @@
-defmodule MicroMacro do
+defmodule MicroMacro.Sup do
 
   defmacro defsup(name, opts, body) do
     quote do
